@@ -110,8 +110,8 @@ The files most likely to require modification are:
 
 In lieu of setting username and password with environment variables, you can hardcode them on lines 38 and 39:
 ```
-const BASIC_AUTH_USERNAME = process.env.BASIC_AUTH_USERNAME || "admin";
-const BASIC_AUTH_PASSWORD = process.env.BASIC_AUTH_PASSWORD || "admin";
+const BASICAUTHUSERNAME = process.env.BASICAUTHUSERNAME || "admin";
+const BASICAUTHPASSWORD = process.env.BASICAUTHPASSWORD || "admin";
 ```
 
 **`/views/wizard.pug`**

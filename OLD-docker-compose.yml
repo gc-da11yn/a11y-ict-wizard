@@ -8,11 +8,11 @@ services:
             - 3000:80
         environment: 
             - MONGODB_URI=mongodb://mongo/a11y-req
-            - BASIC_AUTH_USERNAME=admin
-            - BASIC_AUTH_PASSWORD=password
+            - BASICAUTHUSERNAME=admin
+            - BASICAUTHPASSWORD=password
             - POPULATE_DB=$${POPULATE_DB}
-            - WAIT_HOSTS=mongo:27017
-            - WAIT_FOR_MONGO=true
+            - WAITHOSTS=mongo:27017
+            - WAITFORMONGO=true
     mongo:
         image: mongo:3.3
         restart: always

@@ -6,7 +6,7 @@ echo "Starting mongodb service"
 service mongodb start
 echo "Started mongodb service"
 
-if [ "$WAIT_FOR_MONGO" == "true" ]
+if [ "$WAITFORMONGO" == "true" ]
 then
     echo "Waiting for MongoDB to start"
     ./wait 
@@ -18,7 +18,7 @@ echo "Mongo DB started, starting application"
 #if [ "$POPULATE_DB"  == "true" ]
 #then
  #   echo "Populating Mongo Database"
- #   ./mongotools/bin/mongorestore --uri=${DB_URI} dump/
+ #   ./mongotools/bin/mongorestore --uri=${DBURI} dump/
  #   echo "database populated"
 #else
 #    echo "Populating false"
