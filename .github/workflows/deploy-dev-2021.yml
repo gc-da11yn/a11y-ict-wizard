@@ -59,4 +59,4 @@ jobs:
           app-name: 'a11y-ict-wizard-dev-2021'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_3C3BC28902A24C97B0E58014CF3495A4 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_86B8BA7B51E74DD0A81FB4CA4CEA536A }}
